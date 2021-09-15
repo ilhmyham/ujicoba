@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url(bg.png);
+        }
+
+        .disply {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .coming-soon {
+            margin: 135px 0 302px 0;
+            font-size: 67px;
+            font-family: 'Montserrat', sans-serif;
+            color : #fff;
+        }
+
+        .body-txt{
+            margin-bottom: 25px;
+            font-size: 35px;
+            font-family:  'Montserrat', sans-serif;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .body-txt2{
+            margin-bottom: 239px;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color: #03045E;
+        }
+
+        .footer-txt {
+            margin-bottom: 33px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .container {
+            width: 213px;
+            height: 55px;
+            background-color: #03045E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+        }
+
+        .container a{
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
+
+        @media screen and (max-width:460px){
+            body {
+            background-position: center;
+            background-attachment: fixed;
+            }
+
+            .head .coming-soon {
+            margin-top: 50px;
+            margin-bottom: 160px;
+            font-size: 20px;
+            }
+
+            .body .body-txt {
+            margin-bottom: 25px;
+            font-size: 15px;
+            }
+
+            .body .body-txt2{
+            margin-bottom: 200px;
+            font-size: 15px;
+            }
+            
+            .footer .footer-txt{
+                font-size: 12px;
+            }
+
+            .container {
+            width: 160px;
+            height: 40px;
+            }
+
+            .container a{
+            font-size: 15px;
+        }
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div class="head disply">
+            <h1 class="coming-soon">COMING SOON</h1>
+        </div>    
+    
+        <div class="body disply">
+            <h1 class="body-txt">WEBSITE SEDANG DIBANGUN</h1>
+            <h1 class="body-txt2">Website sedang dalam proses development</h1>
+        </div>
+    
+        <div class="footer disply">
+            <p class="footer-txt">domain telah sukses terhubung dengan hosting unlimited dari</p>
+            <div class="container">
+                <a href="#">majapahit.my.id</a>
+            </div>
+        </div>
+
+</body>
+</html>
